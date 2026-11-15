@@ -1,38 +1,16 @@
-# Final Web Development Project – Sales Dashboard
+# Responsive Sales Dashboard
 
-## Project Overview
-This project is a responsive Sales Dashboard developed as part of my Web Development Internship.
+A responsive sales analytics dashboard built with HTML, CSS, JavaScript and Chart.js.
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Chart.js
+## Project files
+- `index.html` - semantic page structure
+- `style.css` - layout, visual styling and responsive media queries
+- `script.js` - CSV loading, filtering, calculations, DOM updates and charts
+- `data/sales.csv` - your sales dataset (copy your existing CSV here)
 
-## Features
-- Total Sales KPI
-- Total Profit KPI
-- Total Orders KPI
-- Average Order Value
-- Monthly Sales Trend
-- Sales by Category
-- Sales by Branch
-- Payment Method Distribution
-- Category and Branch Filters
+## Run locally
+1. Keep your existing `sales.csv` file inside the `data` folder.
+2. Open this project folder in VS Code.
+3. Run `index.html` using the Live Server extension.
 
-## Project Structure
-- `index.html` – Website structure
-- `style.css` – Website styling
-- `script.js` – JavaScript functionality
-- `data/` – Project data files
-
-## How to Run
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-
-## Learning Outcomes
-Learned HTML, CSS, JavaScript, Git, GitHub and responsive web development.
-
-## Author
-Jaganathaperumal
+The dashboard expects CSV headers such as `Date`, `Branch`, `Category`, `Sales`, `Profit`, and `Payment`. It also uses `Invoice ID` if present to count unique orders.
